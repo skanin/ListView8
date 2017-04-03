@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:contentDescription="@string/plaster"
+        android:id="@+id/imagePlaster"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/plaster"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/plasterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plaster"
+        android:layout_alignTop="@+id/imagePlaster"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/imagePlaster"
+        android:layout_toEndOf="@+id/imagePlaster" />
+
+    <TextView
+        android:id="@+id/textPlasterBesk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plasterText"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@+id/imagePlaster"
+        android:text="@string/plasterBesk"
+        android:layout_alignBottom="@+id/imagePlaster"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
